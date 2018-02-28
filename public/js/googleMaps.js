@@ -10,6 +10,8 @@ function initMap() {
 		  zoom: 15
 		});
 	  
+		console.log("in initMap");
+
 		var marker = new google.maps.Marker({
 			position: ucsd_ltlng,
 			map: map,
